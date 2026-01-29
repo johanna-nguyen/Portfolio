@@ -1,0 +1,74 @@
+#cv {
+  position: relative;
+}
+
+#cv::before {
+  content: 'PLAYER PROFILE';
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: var(--secondary);
+  color: white;
+  font-family: 'Press Start 2P';
+  font-size: 0.6rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+#cv p {
+  max-width: 700px;
+}
+
+.cv-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.cv-btn {
+  padding: 12px 20px;
+  border-radius: 14px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  color: white;
+  background: none;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 8px; /* khoảng cách giữa icon và chữ */
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+
+.cv-btn.view {
+  background: linear-gradient(145deg, #3ddc97, #1abc9c);
+  box-shadow: 0 0 14px rgba(46, 204, 113, 0.6);
+}
+
+.cv-btn.view:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(46, 204, 113, 1);
+}
+
+
+.cv-btn.download {
+  background: linear-gradient(145deg, #7c5cff, #a18bff);
+  box-shadow: 0 0 14px rgba(124, 92, 255, 0.6);
+}
+
+.cv-btn.download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(124, 92, 255, 1);
+}
+
+
+.cv-btn i {
+  font-size: 1.1rem;
+  line-height: 1;
+}

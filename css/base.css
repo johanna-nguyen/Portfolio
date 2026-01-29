@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --bg-main: #fdf6ff;
+  --bg-card: #ffffff;
+  --primary: #7c5cff;
+  --secondary: #ff8ccf;
+  --text-main: #2e2e38;
+  --text-soft: #6b6b7a;
+  --border-soft: #e6dfff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #fdf6ff, #f3f0ff);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+p {
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+}

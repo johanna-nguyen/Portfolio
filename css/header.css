@@ -1,0 +1,32 @@
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(253, 246, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--border-soft);
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1.2rem 0;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Press Start 2P';
+  font-size: 0.7rem;
+  color: var(--primary);
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+nav a:hover {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 0 12px rgba(124, 92, 255, 0.6);
+}

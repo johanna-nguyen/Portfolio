@@ -1,0 +1,41 @@
+<section id="contact-section">
+  <h1>Contact</h1>
+
+  <form
+    class="contact-form"
+    action="https://formsubmit.co/johannanguyenfr@gmail.com"
+    method="POST"
+    id="contact-form"
+  >
+    <input type="hidden" name="_captcha" value="false" />
+
+    <div class="field">
+      <input type="text" name="name" placeholder="Your name" />
+      <span class="error"></span>
+    </div>
+
+    <div class="field">
+      <input type="email" name="email" placeholder="Your email" />
+      <span class="error"></span>
+    </div>
+
+    <div class="field">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <span class="error"></span>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div id="success-popup" class="popup-overlay">
+    <div class="popup-box">
+      <h2>Message Sent!</h2>
+      <p>
+        Thank you for contacting me.
+        <br />
+        I’ll reply as soon as possible.
+      </p>
+      <button id="popup-close">OK</button>
+    </div>
+  </div>
+</section>
