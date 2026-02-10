@@ -1,13 +1,13 @@
 .slider {
   position: relative;
   margin-top: 2rem;
-  perspective: 1000px; /* cực kỳ quan trọng cho 3D */
+  perspective: 1000px; 
 }
 
 .slider-window {
   overflow: hidden;
-  width: 100%; /* full container */
-  margin: 0 auto; /* căn giữa */
+  width: 100%; 
+  margin: 0 auto; 
   padding: 50px 0;
 }
 
@@ -19,7 +19,7 @@
 
 .slide {
   position: relative;
-  flex: 0 0 calc(100% - 10px); /* mỗi slide chiếm 100% - 10px slider-window */
+  flex: 0 0 calc(100% - 10px); /* slide = 100% - 10px slider-window */
   height: 220px;
 
   background: linear-gradient(145deg, #ffffff, #f3efff);

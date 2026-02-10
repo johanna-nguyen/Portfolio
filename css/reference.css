@@ -31,7 +31,7 @@
 
 
 .image-card {
-  width: clamp(260px, 70vw, 450px);
+  width: 700px;
   aspect-ratio: 250 / 297; /* Chuẩn A4 */
   flex-shrink: 0;
 

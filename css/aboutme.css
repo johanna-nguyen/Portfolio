@@ -17,26 +17,19 @@
 .profile-pic img {
   width: 200px;
   border-radius: 20px;
-  border: 3px solid #7c5cff;
-  box-shadow: 0 10px 20px rgba(124, 92, 255, 0.3);
+  border: 3px solid var(--primary);
+  box-shadow: 0 10px 20px var(--box-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-pic img:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 20px 30px rgba(124, 92, 255, 0.5);
+  box-shadow: 0 20px 30px var(--box-shadow-hover);
 }
 
 .about-content {
   max-width: 700px;
 }
-
-.about-content h1 {
-  font-size: 1.6rem;
-  margin-bottom: 1.5rem;
-  color: #7c5cff;
-}
-
 
 .about-block {
   margin-bottom: 2.5rem;
@@ -63,15 +56,15 @@
   margin-bottom: 1rem;
   padding: 1rem;
   background: linear-gradient(145deg, #ffffff, #f3efff);
-  border: 2px solid #7c5cff;
+  border: 2px solid var(--primary);
   border-radius: 14px;
-  box-shadow: 0 6px 15px rgba(124, 92, 255, 0.2);
+  box-shadow: 0 6px 15px var(--box-shadow);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .timeline li:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(124, 92, 255, 0.4);
+  box-shadow: 0 12px 24px var(--box-shadow-hover);
 }
 
 
@@ -92,8 +85,8 @@
 }
 
 .details a:hover {
-  color: #7c5cff;
-  text-shadow: 0 0 6px rgba(124, 92, 255, 0.5);
+  color: var(--primary);
+  text-shadow: 0 0 6px var(--box-shadow-hover);
 }
 
 .details p {

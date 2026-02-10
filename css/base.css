@@ -9,6 +9,8 @@
   --text-main: #2e2e38;
   --text-soft: #6b6b7a;
   --border-soft: #e6dfff;
+  --box-shadow: rgba(124, 92, 255, 0.3);
+  --box-shadow-hover: rgba(124, 92, 255, 0.6);
 }
 
 * {
@@ -34,6 +36,10 @@ h2 {
   color: var(--primary);
   margin-bottom: 1rem;
   white-space: nowrap;
+}
+
+h1 {
+  font-size: 1.6rem;  
 }
 
 p {
