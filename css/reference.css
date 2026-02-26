@@ -31,10 +31,9 @@
 
 
 .image-card {
-  width: 700px;
-  aspect-ratio: 250 / 297; /* Chuẩn A4 */
+  width: 600px;
   flex-shrink: 0;
-
+  height: 800px;
   background: #ffffff;
   border-radius: 12px;
   overflow: hidden;
