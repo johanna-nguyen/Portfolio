@@ -2,7 +2,7 @@ function initCVSection(){
     const viewBtn = document.getElementById("view-cv");
     const downloadBtn = document.getElementById("download-cv");
 
-    const cvFile = "assets/documents/CV_Johanna.pdf";
+    const cvFile = "assets/documents/CV_JohannaNguyen_QA.pdf";
 
     viewBtn.addEventListener("click", () => {
         window.open(cvFile, "_blank");
